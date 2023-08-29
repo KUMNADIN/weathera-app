@@ -1,3 +1,16 @@
 h1{text-align: center;
             color: blue;
-};
+}
+#first{
+    display: block;
+    margin:0px auto;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: black;
+    box-shadow: 2px;
+    padding: 10px;
+}
+p{
+    text-align: center;
+    color: blue;
+}

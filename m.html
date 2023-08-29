@@ -8,5 +8,32 @@
 </head>
 <body>
     <h1>gitub</h1>
+    <p></p>
+    <button id="first">subcribe</button>
+    <script>
+        function go(open){
+         let country=prompt("what country are you from");
+         let name=prompt("what is your name");
+         let language=prompt("what language do you speak");
+        // let result=`${name} from ${country} we are happy to have you here`;
+        // let h1=document.querySelector("#first");
+            if(country=="cameroon"&&language=="french"){
+             alert(`${name} from ${country} we are happy to have you here`);
+            }
+            else{
+                alert(`sorry😜😜${name} check the other platform`);
+            }
+           // let h1=document.querySelector("#first");
+           // h1.innerHTML="welcome";
+         }
+
+         
+        
+        let h1=document.querySelector("#first");
+        h1.addEventListener("click", go);
+
+      //  let nad=document.querySelector("p")
+//nad.innerHTML="i love you nadin";
+    </script>
 </body>
 </html>
